@@ -19,6 +19,7 @@
 		596920662B4D9E6E00718A83 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 596920622B4D9E6E00718A83 /* PlusJakartaSans-Bold.ttf */; };
 		596920672B4D9E6E00718A83 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 596920632B4D9E6E00718A83 /* PlusJakartaSans-SemiBoldItalic.ttf */; };
 		596920682B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 596920642B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf */; };
+		5969206B2B4D9F4100718A83 /* Text+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		596920622B4D9E6E00718A83 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
 		596920632B4D9E6E00718A83 /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		596920642B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+CustomFonts.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				5969205B2B4D9D5400718A83 /* Models */,
 				42E9DCBB2AF113D1007CE7D0 /* Views */,
 				5969205C2B4D9D6100718A83 /* ViewModels */,
+				596920692B4D9F2800718A83 /* SwiftUI Extensions */,
 				5969205A2B4D9C8900718A83 /* Supporting Files */,
 				42E9DCB32AF11138007CE7D0 /* Preview Content */,
 			);
@@ -139,6 +142,14 @@
 				42E9DCC12AF117AE007CE7D0 /* MenuView.swift */,
 			);
 			path = "Menu Views";
+			sourceTree = "<group>";
+		};
+		596920692B4D9F2800718A83 /* SwiftUI Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */,
+			);
+			path = "SwiftUI Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5969206B2B4D9F4100718A83 /* Text+CustomFonts.swift in Sources */,
 				428D2B532AFA882700BBA4F5 /* ViewModel.swift in Sources */,
 				596920602B4D9E2800718A83 /* HeaderView.swift in Sources */,
 				42E9DCBF2AF11439007CE7D0 /* WelcomeView.swift in Sources */,
