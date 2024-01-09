@@ -21,6 +21,7 @@
 		596920682B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 596920642B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf */; };
 		5969206B2B4D9F4100718A83 /* Text+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */; };
 		5969206D2B4D9F9500718A83 /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5969206C2B4D9F9500718A83 /* RestaurantInfoView.swift */; };
+		59FAE1932B4DA156004DF4FB /* MenuAccessButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAE1922B4DA156004DF4FB /* MenuAccessButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		596920642B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
 		5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+CustomFonts.swift"; sourceTree = "<group>"; };
 		5969206C2B4D9F9500718A83 /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
+		59FAE1922B4DA156004DF4FB /* MenuAccessButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAccessButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				42E9DCBE2AF11439007CE7D0 /* WelcomeView.swift */,
 				5969205F2B4D9E2800718A83 /* HeaderView.swift */,
 				5969206C2B4D9F9500718A83 /* RestaurantInfoView.swift */,
+				59FAE1922B4DA156004DF4FB /* MenuAccessButtonView.swift */,
 			);
 			path = "Welcome Views";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				596920602B4D9E2800718A83 /* HeaderView.swift in Sources */,
 				5969206D2B4D9F9500718A83 /* RestaurantInfoView.swift in Sources */,
 				42E9DCBF2AF11439007CE7D0 /* WelcomeView.swift in Sources */,
+				59FAE1932B4DA156004DF4FB /* MenuAccessButtonView.swift in Sources */,
 				42E9DCC22AF117AE007CE7D0 /* MenuView.swift in Sources */,
 				42E9DCAE2AF11136007CE7D0 /* TajMahalApp.swift in Sources */,
 				428D2B512AFA851900BBA4F5 /* Model.swift in Sources */,
