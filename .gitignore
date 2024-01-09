@@ -1,6 +1,8 @@
 # Xcode
 .DS_Store
 /xcuserdata
+*.xcuserstate
+project.xcworkspace/
 
 # Swift Package Manager
 .build
