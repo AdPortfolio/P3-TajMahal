@@ -59,11 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				42E9DCAD2AF11136007CE7D0 /* TajMahalApp.swift */,
+				5969205B2B4D9D5400718A83 /* Models */,
 				42E9DCBB2AF113D1007CE7D0 /* Views */,
+				5969205C2B4D9D6100718A83 /* ViewModels */,
 				5969205A2B4D9C8900718A83 /* Supporting Files */,
 				42E9DCB32AF11138007CE7D0 /* Preview Content */,
-				428D2B502AFA851900BBA4F5 /* Model.swift */,
-				428D2B522AFA882700BBA4F5 /* ViewModel.swift */,
 			);
 			path = TajMahal;
 			sourceTree = "<group>";
@@ -92,6 +92,22 @@
 				42E9DCB12AF11138007CE7D0 /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5969205B2B4D9D5400718A83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				428D2B502AFA851900BBA4F5 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5969205C2B4D9D6100718A83 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				428D2B522AFA882700BBA4F5 /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
