@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum SpiceLevel {
-    case light
+enum SpiceLevel: Int {
+    case light = 1
     case medium
     case hot
 }
@@ -20,4 +20,5 @@ struct Dish {
     var ingredients: String
     var spiceLevel: SpiceLevel
     var imageName: String
+    var price: String?
 }
