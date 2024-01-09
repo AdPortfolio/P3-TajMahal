@@ -24,7 +24,7 @@
 		42E9DCB12AF11138007CE7D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E9DCB42AF11138007CE7D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42E9DCBE2AF11439007CE7D0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		42E9DCC02AF11662007CE7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		42E9DCC02AF11662007CE7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E9DCC12AF117AE007CE7D0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,10 +58,9 @@
 		42E9DCAC2AF11136007CE7D0 /* TajMahal */ = {
 			isa = PBXGroup;
 			children = (
-				42E9DCC02AF11662007CE7D0 /* Info.plist */,
-				42E9DCBB2AF113D1007CE7D0 /* Views */,
 				42E9DCAD2AF11136007CE7D0 /* TajMahalApp.swift */,
-				42E9DCB12AF11138007CE7D0 /* Assets.xcassets */,
+				42E9DCBB2AF113D1007CE7D0 /* Views */,
+				5969205A2B4D9C8900718A83 /* Supporting Files */,
 				42E9DCB32AF11138007CE7D0 /* Preview Content */,
 				428D2B502AFA851900BBA4F5 /* Model.swift */,
 				428D2B522AFA882700BBA4F5 /* ViewModel.swift */,
@@ -84,6 +83,15 @@
 				42E9DCC12AF117AE007CE7D0 /* MenuView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5969205A2B4D9C8900718A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42E9DCC02AF11662007CE7D0 /* Info.plist */,
+				42E9DCB12AF11138007CE7D0 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +302,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TajMahal/Preview Content\"";
-				DEVELOPMENT_TEAM = 6FH7WNJPHQ;
+				DEVELOPMENT_TEAM = S25TANK5XP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TajMahal/Info.plist;
+				INFOPLIST_FILE = "TajMahal/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -323,10 +331,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TajMahal/Preview Content\"";
-				DEVELOPMENT_TEAM = 6FH7WNJPHQ;
+				DEVELOPMENT_TEAM = S25TANK5XP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TajMahal/Info.plist;
+				INFOPLIST_FILE = "TajMahal/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
