@@ -13,7 +13,7 @@ enum SpiceLevel: Int {
     case hot
 }
 
-struct Dish {
+struct Dish: Hashable {
     var name: String
     var description: String
     var allergens: String

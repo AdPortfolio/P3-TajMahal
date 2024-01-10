@@ -21,6 +21,13 @@
 		596920682B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 596920642B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf */; };
 		5969206B2B4D9F4100718A83 /* Text+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */; };
 		5969206D2B4D9F9500718A83 /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5969206C2B4D9F9500718A83 /* RestaurantInfoView.swift */; };
+		59C744C72B4DB7C8004B88B4 /* MenuBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C744C62B4DB7C8004B88B4 /* MenuBackButton.swift */; };
+		59C744C92B4DB861004B88B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C744C82B4DB861004B88B4 /* LaunchScreen.storyboard */; };
+		59FAE1932B4DA156004DF4FB /* MenuAccessButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAE1922B4DA156004DF4FB /* MenuAccessButtonView.swift */; };
+		59FAE1952B4DA2BF004DF4FB /* MenuMealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAE1942B4DA2BF004DF4FB /* MenuMealRowView.swift */; };
+		59FAE1982B4DA2E3004DF4FB /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAE1972B4DA2E3004DF4FB /* DetailsView.swift */; };
+		59FAE19A2B4DA303004DF4FB /* DetailsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAE1992B4DA303004DF4FB /* DetailsImageView.swift */; };
+		59FAE19C2B4DA313004DF4FB /* DetailsDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAE19B2B4DA313004DF4FB /* DetailsDescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +47,13 @@
 		596920642B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
 		5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+CustomFonts.swift"; sourceTree = "<group>"; };
 		5969206C2B4D9F9500718A83 /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
+		59C744C62B4DB7C8004B88B4 /* MenuBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackButton.swift; sourceTree = "<group>"; };
+		59C744C82B4DB861004B88B4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59FAE1922B4DA156004DF4FB /* MenuAccessButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAccessButtonView.swift; sourceTree = "<group>"; };
+		59FAE1942B4DA2BF004DF4FB /* MenuMealRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMealRowView.swift; sourceTree = "<group>"; };
+		59FAE1972B4DA2E3004DF4FB /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		59FAE1992B4DA303004DF4FB /* DetailsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsImageView.swift; sourceTree = "<group>"; };
+		59FAE19B2B4DA313004DF4FB /* DetailsDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,7 @@
 			children = (
 				5969205D2B4D9DBD00718A83 /* Welcome Views */,
 				5969205E2B4D9DCF00718A83 /* Menu Views */,
+				59FAE1962B4DA2D0004DF4FB /* Details Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,6 +124,7 @@
 				596920642B4D9E6E00718A83 /* PlusJakartaSans-Medium.ttf */,
 				596920612B4D9E6E00718A83 /* PlusJakartaSans-SemiBold.ttf */,
 				596920632B4D9E6E00718A83 /* PlusJakartaSans-SemiBoldItalic.ttf */,
+				59C744C82B4DB861004B88B4 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,6 +151,7 @@
 				42E9DCBE2AF11439007CE7D0 /* WelcomeView.swift */,
 				5969205F2B4D9E2800718A83 /* HeaderView.swift */,
 				5969206C2B4D9F9500718A83 /* RestaurantInfoView.swift */,
+				59FAE1922B4DA156004DF4FB /* MenuAccessButtonView.swift */,
 			);
 			path = "Welcome Views";
 			sourceTree = "<group>";
@@ -143,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				42E9DCC12AF117AE007CE7D0 /* MenuView.swift */,
+				59FAE1942B4DA2BF004DF4FB /* MenuMealRowView.swift */,
+				59C744C62B4DB7C8004B88B4 /* MenuBackButton.swift */,
 			);
 			path = "Menu Views";
 			sourceTree = "<group>";
@@ -153,6 +172,16 @@
 				5969206A2B4D9F4100718A83 /* Text+CustomFonts.swift */,
 			);
 			path = "SwiftUI Extensions";
+			sourceTree = "<group>";
+		};
+		59FAE1962B4DA2D0004DF4FB /* Details Views */ = {
+			isa = PBXGroup;
+			children = (
+				59FAE1972B4DA2E3004DF4FB /* DetailsView.swift */,
+				59FAE1992B4DA303004DF4FB /* DetailsImageView.swift */,
+				59FAE19B2B4DA313004DF4FB /* DetailsDescriptionView.swift */,
+			);
+			path = "Details Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +248,7 @@
 				596920662B4D9E6E00718A83 /* PlusJakartaSans-Bold.ttf in Resources */,
 				596920652B4D9E6E00718A83 /* PlusJakartaSans-SemiBold.ttf in Resources */,
 				42E9DCB22AF11138007CE7D0 /* Assets.xcassets in Resources */,
+				59C744C92B4DB861004B88B4 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,13 +260,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5969206B2B4D9F4100718A83 /* Text+CustomFonts.swift in Sources */,
+				59C744C72B4DB7C8004B88B4 /* MenuBackButton.swift in Sources */,
+				59FAE1952B4DA2BF004DF4FB /* MenuMealRowView.swift in Sources */,
 				428D2B532AFA882700BBA4F5 /* ViewModel.swift in Sources */,
 				596920602B4D9E2800718A83 /* HeaderView.swift in Sources */,
 				5969206D2B4D9F9500718A83 /* RestaurantInfoView.swift in Sources */,
+				59FAE19A2B4DA303004DF4FB /* DetailsImageView.swift in Sources */,
 				42E9DCBF2AF11439007CE7D0 /* WelcomeView.swift in Sources */,
+				59FAE1982B4DA2E3004DF4FB /* DetailsView.swift in Sources */,
+				59FAE1932B4DA156004DF4FB /* MenuAccessButtonView.swift in Sources */,
 				42E9DCC22AF117AE007CE7D0 /* MenuView.swift in Sources */,
 				42E9DCAE2AF11136007CE7D0 /* TajMahalApp.swift in Sources */,
 				428D2B512AFA851900BBA4F5 /* Model.swift in Sources */,
+				59FAE19C2B4DA313004DF4FB /* DetailsDescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -352,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -374,8 +410,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TajMahal/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -407,8 +445,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TajMahal/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
