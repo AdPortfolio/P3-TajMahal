@@ -25,6 +25,6 @@ struct MenuBackButton: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     MenuBackButton(textTitle: "")
 }

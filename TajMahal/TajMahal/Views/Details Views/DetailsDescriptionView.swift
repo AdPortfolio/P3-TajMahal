@@ -36,7 +36,7 @@ struct DetailsDescriptionView: View {
 
 #Preview(traits: .sizeThatFitsLayout) {
     NavigationStack {
-        DetailsDescriptionView(meal: Dish(name: "", description: "", allergens: "", ingredients: "", spiceLevel: .hot, imageName: ""))
+        DetailsDescriptionView(meal: Dish(name: "Nom du plat", description: "Une description", allergens: "Liste des allergènes", ingredients: "Liste des ingrédients", spiceLevel: .hot, imageName: "Biryani"))
     }
     .environmentObject(ViewModel())
 }

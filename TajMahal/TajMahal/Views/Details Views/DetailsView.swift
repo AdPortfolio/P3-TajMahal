@@ -25,7 +25,7 @@ struct DetailsView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     NavigationStack {
         DetailsView()
             .environmentObject(ViewModel())

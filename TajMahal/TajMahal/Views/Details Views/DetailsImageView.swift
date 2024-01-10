@@ -22,5 +22,5 @@ struct DetailsImageView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    DetailsImageView(meal: Dish(name: "name", description: "Description", allergens: "Allgergens", ingredients: "ingredients", spiceLevel: .hot, imageName: "Pakoras", price: "XXX"))
+    DetailsImageView(meal: Dish(name: "Nom du plat", description: "Description", allergens: "Allergènes", ingredients: "Ingrédients", spiceLevel: .hot, imageName: "Pakoras", price: "XX €"))
 }
